@@ -24,9 +24,9 @@ public class DBConnect {
 	 **/
 	public DBConnect() {
 		final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";  
-	    final String DB_URL = "jdbc:mysql://localhost:3306/DEMO";
-	    final String USER = "root";
-	    final String PASS = "070251Zlq";
+	    final String DB_URL = "jdbc:mysql://localhost:3306/XXXX";
+	    final String USER = "XXXXX";
+	    final String PASS = "XXXXX";
 	    
 		try {
 			Class.forName(JDBC_DRIVER); // loan the driver
