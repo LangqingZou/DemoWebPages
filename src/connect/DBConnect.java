@@ -1,6 +1,14 @@
-//Function: connect the database
 package connect;
 import java.sql.*;
+
+/**
+ * The DBConnect program implements a mySql connection simply 
+ * connect the database and close it.
+ * 
+ * @author: Langqing Zou
+ * @version: V1.0
+ * @since: 2021-01-2
+ **/
 
 public class DBConnect {
 	private Connection db = null;
@@ -8,6 +16,12 @@ public class DBConnect {
 	private Statement statement = null;
 	private ResultSet resultset = null;
 	
+	/**
+	 * This is the constructor which loans the driver and connects the database.
+	 * @param Nothing.
+	 * @return Nothing.
+	 * @exception Exception e on serve connection error.
+	 **/
 	public DBConnect() {
 		final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";  
 	    final String DB_URL = "jdbc:mysql://localhost:3306/DEMO";
@@ -24,8 +38,19 @@ public class DBConnect {
 		}
 	}
 	
+	/**
+	 * This function returns the connection.
+	 * @param Nothing.
+	 * @return connection This returns the connection.
+	 **/
 	public Connection getConnection() {return db;}
 	
+	/**
+	 * This function closes the connection.
+	 * @param Nothing.
+	 * @return Nothing.
+	 * @exception SQLException e on serve closing error.
+	 **/
 	public void closeDB() {
 		try {
 			if(resultset != null) resultset.close();
