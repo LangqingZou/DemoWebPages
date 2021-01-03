@@ -30,9 +30,9 @@ public class EmployeeConn extends PersonConn{
 	/**
 	 * This function inserts a new employee to employee table in database.
 	 * It returns true if inserting successfully and false otherwise.
-	 * @param email The email of the new employee
-	 * @param position The position of the new employee
-	 * @param locaiton The location of the new employee
+	 * @param email The email of the new employee.
+	 * @param position The position of the new employee.
+	 * @param locaiton The location of the new employee.
 	 * @return Boolean 
 	 * @exception Exception e on inserting a new employee to employee table in database error.
 	 **/
