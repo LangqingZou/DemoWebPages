@@ -58,7 +58,7 @@ public class PersonConn {
 	/**
 	 * This function returns the password of person.
 	 * @param email The email of a person.
-	 * @return String 
+	 * @return String  
 	 * @exception Exception e getting the password error.
 	 **/
 	public String getPassword(String email) {
