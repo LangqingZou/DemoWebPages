@@ -5,7 +5,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * The GuestConn program implements an guest connection, includes inserting a guest
+ * The GuestConn program implements a guest connection, includes inserting a guest
  * and checking email of a guest.
  * 
  * @author: Langqing Zou
