@@ -20,6 +20,7 @@ import connect.PersonConn;
 
 @SuppressWarnings("serial")
 public class LoginServlet extends HttpServlet{
+	
 	@Override
 	/**
 	 * This function receives the request information of HTTP.

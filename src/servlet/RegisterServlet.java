@@ -1,5 +1,4 @@
 package servlet;
-
 import java.io.IOException;
 
 
@@ -15,14 +14,35 @@ import connect.GuestConn;
 import connect.PersonConn;
 import entities.Person;
 
+/**
+ * The RegisterServlet program receives and processes the data from the register.jsp front end.
+ * 
+ * @author: Langqing Zou
+ * @version: V1.0
+ * @since: 2021-01-2
+ **/
+
 @SuppressWarnings("serial")
 public class RegisterServlet extends HttpServlet{
 
 	@Override
+	/**
+	 * This function receives the request information of HTTP.
+	 * @param request Request from HTTP
+	 * @param response Response to HTTP
+	 * @return Nothing.
+	 **/
 	public void doGet(HttpServletRequest request,HttpServletResponse response)throws IOException,ServletException{
 		doPost(request, response);
 	}
+	
 	@Override
+	/**
+	 * This function receives the request to HTTP to obtain the infomation.
+	 * @param request Request from HTTP
+	 * @param response Response to HTTP
+	 * @return Nothing.
+	 **/
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 		String firstname = request.getParameter("firstname");
 		String lastname  = request.getParameter("lastname");
