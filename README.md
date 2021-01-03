@@ -6,8 +6,9 @@
 - [Usage](#usage)
 ## Background
 ### ER Model 
+![image](https://github.com/LangqingZou/DemoWebPages/blob/master/ER.png)
 ### Description 
-<br>DemoWebPages is like a hotel web, such that a person could be a guest, an employee or a guest **and** an employee. As lons as a person register, his/her information will be shown in the PERSON table in database. If he/she is a guest, his/her information will be shown in the GUEST table in database. If he/she is an employee, his/her information will be shown in the EMPLOYEE table in database. Attributes of person are common infomation of person, and an employee has two more attributes. Email will be the primary key in each tables.
+DemoWebPages is like a hotel web, such that a person could be a guest, an employee or a guest **and** an employee. As lons as a person register, his/her information will be shown in the `PERSON` table in database. If he/she is a guest, his/her information will be shown in the `GUEST` table in database. If he/she is an employee, his/her information will be shown in the `EMPLOYEE` table in database. Attributes of person are common infomation of person, and an employee has two more attributes. Email will be the primary key in each tables.
 ## Install
 * Eclipse or any other JAVA IDE
 * TomCat
