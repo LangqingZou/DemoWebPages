@@ -4,9 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<script type="text/javascript">
-	function validate(){
-		//var email = document.getElementById("email");
-		//var password = document.getElementById("password"); 
+	function validate(){ 
 		var info = '<%=session.getAttribute("InfoAlert")%>';
 		//check email
 		if(info=='false'){

@@ -6,17 +6,7 @@
 	<meta charset="UTF-8">
 	<script type="text/javascript">
 	function validate(){
-		/* var firstname = document.getElementById("firstname");
-		var lastname  = document.getElementById("lastname");
-		var address = document.getElementById("address");
-		var email = document.getElementById("email");
-		var phone = document.getElementById("phone");
-		var password = document.getElementById("password");
-		var position = document.getElementById("position");
-		var location = document.getElementById("location");
-		var role = document.getElementById("role"); */
 		var email = '<%=session.getAttribute("emailAlert")%>';
-		//var re1 = /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/; 
 		
 	    if (email=="false"){
 			alert("Email already exist!");
