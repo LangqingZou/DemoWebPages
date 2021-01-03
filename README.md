@@ -5,8 +5,8 @@
 - [Install](#install)
 - [Usage](#usage)
 ## Background
-* ER Model
-
+* ER Model 
+![image](https://github.com/LangqingZou/DemoWebPages/blob/master/ER.png)
 * Description
 ## Install
 ## Usage. 
